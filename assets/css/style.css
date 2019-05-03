@@ -4,14 +4,17 @@ body, html {
     color: #777;
     line-height: 1.8;
 }
-
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .project {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     filter: grayscale(100%);
+}
+.tech-used {
+    list-style-type: none;
+    margin-left:-40px;
 }
 
 /* First image (Logo. Full height) */
@@ -27,8 +30,32 @@ body, html {
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url("../images/point.png");
+    background-image: url("../images/Sunset.png");
     min-height: 400px;
+}
+.technologies {
+    display: flex;
+    font-size: 12px;
+}
+#front-end {
+    margin-right: 150px;
+}
+
+
+#archie {
+    border-radius: 200px;
+}
+.animate {
+    height: 55px;
+}
+
+.animation {
+    align-content: center;
+    width: 100%;
+    size: 50px;
+}
+.fa-fw {
+    width:auto !important; 
 }
 
 .w3-wide {letter-spacing: 10px;}

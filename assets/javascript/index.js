@@ -1,12 +1,4 @@
-// Modal Image Gallery
-function onClick(element) {
-    document.getElementById("img01").src = element.src;
-    document.getElementById("modal01").style.display = "block";
-    var captionText = document.getElementById("caption");
-    captionText.innerHTML = element.alt;
-  }
-  
-  // Change style of navbar on scroll
+ // Change style of navbar on scroll
   window.onscroll = function() {myFunction()};
   function myFunction() {
       var navbar = document.getElementById("myNavbar");
@@ -38,7 +30,7 @@ function onClick(element) {
       var player;
       function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
-          height: '800',
+          height: '800px',
           width: '100%',
           videoId: 'yJbH_nyBMxI',
           playerVars: {
