@@ -30,7 +30,7 @@
       var player;
       function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
-          height: '800px',
+          height: '100%',
           width: '100%',
           videoId: 'yJbH_nyBMxI',
           playerVars: {

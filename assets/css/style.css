@@ -1,4 +1,4 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Roboto', sans-serif;}
 body, html {
     height: 100%;
     color: #777;
@@ -16,6 +16,8 @@ body, html {
     list-style-type: none;
     margin-left:-40px;
 }
+#video-wrapper{position: relative;}
+#player{position: absolute;}
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
@@ -40,7 +42,6 @@ body, html {
 #front-end {
     margin-right: 150px;
 }
-
 
 #archie {
     border-radius: 200px;
