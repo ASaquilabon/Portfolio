@@ -24,13 +24,13 @@ body, html {
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-    background-image: url("../images/colombia2015.png");
+    background-image: url("../images/Sunset.png");
     min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url("../images/Sunset.png");
+    background-image: url("../images/colombia2017.png");
     min-height: 400px;
 }
 .technologies {
